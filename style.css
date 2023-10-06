@@ -1,0 +1,136 @@
+@font-face {
+    font-family: youngster;
+    src: url(assets/Toddler\ Writing.ttf);
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: youngster;
+
+}
+
+.imgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .etpImg {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* 
+@media screen and (min-width: 800px) and (max-width: 1440px) {
+    .etpImg {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1440px) {
+    p {
+        width: 50%;
+    }
+} */
+
+@media screen and (max-width: 800px) {
+    .backgroundInfo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        border-top: 5px solid #645BA7;
+        border-bottom: 5px solid #645BA7;
+
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .backgroundInfo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        border-top: 5px solid #645BA7;
+        border-bottom: 5px solid #645BA7;
+
+    }
+}
+
+
+
+.backgroundInfoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+p {
+    max-width: 80%;
+    font-size: 1.4em;
+    line-height: 36px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.shape1 {
+    width: 100%;
+
+}
+
+.header {
+    color: #292929;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.7em
+}
+
+.activity {
+    border-top: solid 4px #F38D20;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .activity {
+        border-top: solid 4px #F38D20;
+        width: 40%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+.activity h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #645BA7;
+    text-align: center;
+}
+
+.activity h2,
+h3 {
+    text-align: center;
+}
+
+.activity h2 {
+    color: #52B848;
+}
+
+.activity h3 {
+    margin: 5px;
+    color: #292929;
+
+}
