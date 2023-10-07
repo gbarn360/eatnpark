@@ -134,3 +134,11 @@ h3 {
     color: #292929;
 
 }
+
+.contactInfo h3 {
+    margin-top: -20px;
+}
+
+.contactInfo h2 {
+    text-align: center;
+}
