@@ -17,6 +17,16 @@ body {
     justify-content: center;
 }
 
+.store {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
 @media screen and (max-width: 800px) {
     .etpImg {
         max-width: 80%;
